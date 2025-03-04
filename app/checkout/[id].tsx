@@ -10,7 +10,7 @@ import {
   ActivityIndicator,
   Platform,
 } from "react-native";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Stack, useGlobalSearchParams, useRouter } from "expo-router";
 import { EvilIcons } from "@expo/vector-icons";
 import RNPickerSelect from "react-native-picker-select";
@@ -90,7 +90,7 @@ export default function Checkout() {
     }));
   };
   // bot api token
-  const botToken = "6229717040:AAH25e0ViIbOVvb0njOkVVElFf_H7Ol3lGA";
+  const botToken = "7690287728:AAHKwXwV8DgKGCUoauS0SfuX12uHU0W6nr4";
   const chatId = 1121426146;
 
   // Ma'lumotlarni Telegramga yuborish
@@ -422,6 +422,7 @@ const cls = StyleSheet.create({
   orders_w: {
     width: "100%",
     height: "12%",
+    marginTop: -20,
     backgroundColor: "rgb(255, 255, 255)",
     display: "flex",
     flexDirection: "row",

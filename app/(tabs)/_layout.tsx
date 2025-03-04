@@ -25,13 +25,7 @@ export default function TabLayout() {
         tabBarInactiveTintColor: Colors[colorScheme ?? "light"].tabIconDefault,
         tabBarStyle: {
           backgroundColor: "#fff",
-          height: 60,
           width: "100%",
-          marginLeft: "auto",
-          marginRight: "auto",
-          borderRadius: 5,
-          paddingBottom: 10,
-          paddingTop: 10,
         },
       }}
     >
